@@ -23,6 +23,6 @@
 }*/
 
 /*Hide Font and Size dropdown in text editor */
- span#cke_14.cke_combo.cke_combo__font.cke_combo_off{
+ span#cke_14.cke_combo.cke_combo__font.cke_combo_off, span#cke_15.cke_combo.cke_combo__fontsize.cke_combo_off{
      display: none !important;
 }
