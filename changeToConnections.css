@@ -28,4 +28,6 @@
      display: none !important;
 }
 
+/* Hide similar blog entries */
 .lotusSection[aria-label="Similar Blogs"] { display: none !important;}
+.lotusSection[aria-label="Similar Entries"] { display: none !important;}
