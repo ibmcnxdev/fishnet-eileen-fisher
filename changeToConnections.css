@@ -27,3 +27,5 @@
  span#cke_13.cke_combo.cke_combo__font.cke_combo_off, span#cke_14.cke_combo.cke_combo__fontsize.cke_combo_off{
      display: none !important;
 }
+
+.lotusSection[aria-label="Similar Blogs"] { display: none !important;}
