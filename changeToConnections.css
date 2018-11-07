@@ -3,6 +3,60 @@
     background-color: #fff !important;
     }
 
+.ics-scbanner > .selected::after{
+    border-bottom: 0.25rem solid #9a1b1f !important;
+}
+
+/*a#communitiesMenu_container.communities:hover{
+    border-bottom: solid #9a1b1f !important;
+}*/
+
+/*change the nav bar to black*/
+.ics-scbanner{
+    background-color: black !important;
+    font-size: 14px !important;
+}
+
+.ics-scbanner .navmenu.rd .navsimplelist > li a.selected{
+    border-left: 4px solid #9a1b1f !important;
+}
+.ics-scbanner .navsimplelist > li a:focus{
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper.isSticky .streamHeaderInner{
+    background: #000 !important;
+}
+
+/*social home */
+
+.setSideBar{ /* header */
+    background-color: #fff !important;
+}
+.lotusui30_body{ /* body*/
+    background-color: #fff !important;
+}
+.people-set .ic-bizcard-section1 .selected{ /* filter outlining  */
+    box-shadow: 0 0 0 2px #9a1b1f !important;
+}
+.typeaheadDiv{
+    background: #000;
+}
+.setSideBar.editing .remove-contacts{
+    fill: #000 !important;
+}
+.ic-stream-controls .ic-stream-controls-options ul.bx--tabs__nav li.bx--tabs__nav-item.ic-stream-controls-item:hover{
+    color: #fff !important;
+}
+.ic-stream-controls .ic-filter-tab:hover{
+    color: #000 !important;
+}
+
+.ic-stream-controls .ic-stream-controls-options ul.bx--tabs__nav{
+    text-transform: uppercase !important;
+}
+
 /*change search box */
 .search-history-view-ui .lotusui30 .icSearchPaneButton .icSearchIcon svg {
     fill: #000 !important;
@@ -13,21 +67,324 @@
     outline: 1px solid #eee !important;
   }
 
-/* Hide the top header of the business card */
-.personMenu .topActionHolder{
-    display: none !important;
-}
-
-/*.lotusui30 a, .lotusui30 a:visited{
-    color: #464646 !important;
-}*/
-
 /*Hide Font and Size dropdown in text editor */
  span#cke_14.cke_combo.cke_combo__font.cke_combo_off, span#cke_15.cke_combo.cke_combo__fontsize.cke_combo_off, 
  span#cke_13.cke_combo.cke_combo__font.cke_combo_off, span#cke_14.cke_combo.cke_combo__fontsize.cke_combo_off{
      display: none !important;
 }
 
-/* Hide similar blog entries */
+/* Hide the top header of the business card */
+.personMenu .topActionHolder{
+    display: none !important;
+}
+
+.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging {
+    background: #000 !important;
+}
+
+/* Change border left to red on the active selection */  
+
+.lotusui30 .lotusMenu .lotusHeaderSelected, .lotusui30 .lotusMenu li.lotusSelected, .lotusui30 .lotusMenu li.lotusSelected:active, .lotusui30 .lotusMenu li.lotusSelected:focus, .lotusui30 .lotusMenu li.lotusSelected:hover, .lotusui30 .lotusMenu li.lotusSelected:visited {
+    position: relative;
+    margin: 15px 0;
+    background-color: transparent;
+    border-top: none;
+    border-bottom: none;
+    color: #000 !important;
+    border-left: 4px solid #9a1b1f !important;
+}
+
+/* Change font to Trade Gothic*/
+.lotusliveui, lotusliveui30, .scloud3 {
+    font: normal .75em/1.5 "Trade Gothic", sans-serif !important;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading, .lotusui30 .lotusTitleBar2 .lotusHeading a, .lotusui30 div.lotusTitleBar h2{
+   font-family: "Trade Gothic", sans-serif !important;
+}
+
+.lotusui30 .dijitTitlePaneTitle, .lotusui30 .lotusSection h2, .lotusui30 .lotusWidget h2, .lotusui30 .lotusWidget2 h2{
+    font-family: "Trade Gothic", sans-serif !important;
+}
+.lotusui30 .lotusMeta, .lotusui30 .lotusWidget2 .lotusTable h4{
+    font-family: "Trade Gothic", sans-serif !important;
+}
+.lotusui30 .lotusMeta{
+    font-size: 1.1em !important;
+}
+.filesDnDTitle{
+    font-family: "Trade Gothic", sans-serif !important;
+    font-size: 2.0em !important;
+}
+.filesDnDDesc{
+    font-family: "Trade Gothic", sans-serif !important;
+    font-size: 1.45em !important;
+}
+.lotusui30 .dijitTitlePaneTitle, .lotusui30 .lotusSection h2, .lotusui30 .lotusWidget h2, .lotusui30 .lotusWidget2 h2{
+     font-family: "Trade Gothic", sans-serif !important;
+}
+.lotusui30 .lotusMeta, .lotusui30 .lotusWidget2 .lotusTable h4{
+    font-family: "Trade Gothic", sans-serif !important;
+}
+.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a{
+    font-size: 14px !important;
+}
+.lotusHeader .shareSome-desc{
+    font-family: "Trade Gothic", sans-serif !important; 
+}
+/* change link or box color to black*/
+.lotusui30 a, .lotusui30 a:visited {
+    color: #000 !important;
+}
+.lotusui30 a:active, .lotusui30 a:focus, .lotusui30 a:hover{
+    text-decoration: none !important;
+    color: #9a1b1f !important;
+}
+.lotusui30 .tabNavBar .lotusTabs li.lotusSelected{
+        border-bottom: 4px solid #9a1b1f !important;
+}
+.lotusui30 .lotusTabs li.lotusSelected {
+        border-bottom: 2px solid #9a1b1f !important;
+}
+.lotusui30 .lotusTabContainer{
+    border-bottom: 1px solid #000 !important;
+}
+.lotusui30 .lotusMain span.lotusBtn a{
+    background-color: #000 !important;
+    color: #fff !important;
+    border-radius: 0;
+    background-image: none;
+    box-shadow: 0 0 0 1px #000 inset !important;
+    display: block;
+}
+.lotusui30 .lotusMain span.lotusBtn a:focus, .lotusui30 .lotusMain span.lotusBtn a:hover{
+    box-shadow: none !important;
+    background: none !important;
+}
+
+.lotusui30 .lotusTitleBar2 .lotusNavTabs{
+    border-bottom: 1px solid #000 !important;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTab{
+    border-bottom: 2px solid #9a1b1f !important;
+}
+.lotusui30 .lotusPlaceBar .lotusBtn{
+    background: #000 !important;
+    font-family: "Trade Gothic", sans-serif !important;
+    font-size: 1.2em !important;
+}
+.lotusui30 .lotusSort, .lotusui30 .lotusPaging{
+    font-size: 1.1em !important;
+}
+.lconnFiles .lotusui30 .lotusMenu div[class~=lotusSelected]{
+    border-left: 4px solid #9a1b1f !important;
+}
+.lconnPicker .tabbedSwitch .pickerSourceChecked .lconnPickerSourceLabelSpan{
+    color: #000 !important;
+}
+.lconnPicker .tabbedSwitch .pickerSourceChecked .lconnPickerSourceLabel {
+    border-bottom: 3px solid #9a1b1f !important;
+}
+.lconnPicker .tabbedSwitch .switchContainer {
+    border-bottom: 1px solid #000 !important;
+}
+.lconnPicker .tabbedSwitch .lconnPickerSourceLabelSpan{
+    color: #000 !important;
+}
+    
+.lotusui30 .lotusPaging .lotusInlinelist li{
+    border-color: #fff !important;
+}
+a#imFollowing, a#statusUpdates, a#discover, a#atMentions, a#forme, a#fromme, a#actionRequired, a#saved{
+    color:#fff !important;
+    font-size: 1.2em !important;
+}
+.lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight{
+    background: #fff !important;
+}
+
+.lotusui30 .dijitMenuPopup .dijitMenuTable .dijitMenuItemFocused td.dijitMenuItemLabel{
+    border-bottom:1px solid transparent !important;
+    border-top:1px solid transparent !important;
+}
+.lotusui30 .dijitMenuPopup .dijitMenuTable .dijitMenuItemSelected td.dijitMenuItemIconCell{
+    border-left:4px solid #9a1b1f !important;
+}
+.sc.hikari .dijitMenuPopup .dijitMenuItemHover td, .sc.hikari .dijitMenuPopup .dijitMenuItemSelected td{
+    border-bottom-color: #fff !important;
+    border-top-color: #fff !important;
+    color: #000 !important;
+}
+
+div.hopscotch-bubble .hopscotch-actions{
+    background-color: #000 !important;
+}
+div.hopscotch-bubble .hopscotch-nav-arrow{
+    background-color: #000 !important;
+}
+div.hopscotch-bubble .hopscotch-bubble-arrow-container{
+    color: #000 !important;
+}
+.ic-stream-controls .ic-stream-controls-options ul.bx--tabs__nav li.bx--tabs__nav-item.ic-stream-controls-item{
+    border-color: #9a1b1f !important;
+}
+.lotusui30 .lotusColLeft .lconnNavTreeSelector.lotusSelected{
+    border-left: 4px solid #000 !important;
+}
+.lotusui30 .lotusColLeft .lotusGlobalActionBar .lotusBtn, .lotusui30 .lotusColLeft .lotusGlobalActionBar .lotusBtn:hover{
+    background: #000 !important;
+    border: 1px solid #fff !important;
+}
+.lotusui30 button.lotusFormButton, .lotusui30 input.lotusFormButton{
+    color: #000 !important;
+    box-shadow: 0 0 0 1px #000 !important;
+}
+.lotusui30 .lotusBtn {
+    background-color: #000 !important;
+    box-shadow: none !important;
+    border: 1px solid #000 !important;
+    color: #fff !important;
+}
+.lotusui30 .lotusMenu .lotusMenuSection li.subNavItem.lotusSelected a span{
+    padding-left: 0px !important;
+    border-style: none !important;
+    border-color: none !important;
+}
+.lotusui30 .lotusDialog .lotusDialogHeader{ /*import and add new members dialog box */
+    background: no-repeat #000 !important;
+}
+.app_palette_modal_header{
+    background-color: #000 !important;
+}
+.lotusui30 .lotusFlyout .lotusFlyoutHeader{
+    background-color: #000 !important;
+}
+.lotusui30 .lotusBoard .lotusStream .lotusPostHover, .lotusui30 .lotusBoard .lotusStream .lotusPostSelected{
+    background-color: #eee !important;
+}
+div#dropdownNavMenuContainer div#dropdownNavMenu li a, div#dropdownNavMenuContainer div#dropdownNavMenu li a:before, div#dropdownNavMenuContainer div#dropdownNavMenu div#subcommArea .lotusMenuSection h3, div#dropdownSubMenuContainer div#dropdownSubMenu li a, div#dropdownSubMenuContainer div#dropdownSubMenu li a:before, div#dropdownSubMenuContainer div#dropdownSubMenu div#subcommArea .lotusMenuSection h3{
+    background-color: transparent !important;
+}
+
+/* my contacts styling*/
+.sc .inviteToJoinCateBtns{
+    margin-bottom: 10px !important;
+}
+.sc .inviteToJoinCateBtns a{
+    padding: 2px !important;
+}
+.sc .inviteToJoinCateBtns a.lotusBold{
+    border-bottom: 2px solid #9a1b1f !important;
+}
+
+
+/* hide arrow for active selection */
+.otherActivityStream14{
+    background-image: none !important;
+}
+.stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_loginErrorMessage:hover,
+.stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_loginErrorMessage:focus,
+.stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_checkbox_frame:hover,
+.stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_checkbox_frame.stproxy_navbarMenuNonVerse_checkbox_onfocus {
+  border-bottom: 0.0625rem solid #fff !important;
+  border-top: 0.0625rem solid #fff !important;
+}
+.stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button {
+    border: 1px solid #fff !important;
+    box-shadow: 0 0 0 3px #fff !important;
+}
+.icNote-message .bluedot{
+    border:1px solid #fff !important;
+}
+
+/*search*/
+.search-history-view-ui .lotusui30 .icSearchPaneButton.icSearchBarMode .icSearchBar .icSearchIcon svg, .search-history-view-ui .lotusui30 .icSearchPane .icTopSection .icSearchBar .icSearchIcon svg{
+    fill: #000 !important;
+}
+.search-history-view-ui .lotusui30 .icSearchPane .pfEntry.spSelected, .search-history-view-ui .lotusui30 .icSearchPane .pfEntry:hover{
+    border-color: #9a1b1f !important;
+}
+        
+.search-history-view-ui .lotusui30 .icSearchPane .pfEntry.spSelected .lconn_gray, .search-history-view-ui .lotusui30 .icSearchPane .pfEntry.spSelected .lconn_gray a, .search-history-view-ui .lotusui30 .icSearchPane .pfEntry.spSelected .lconn_gray a:visited, .search-history-view-ui .lotusui30 .icSearchPane .pfEntry.spSelected .lconn_title, .search-history-view-ui .lotusui30 .icSearchPane .pfEntry:hover .lconn_gray, .search-history-view-ui .lotusui30 .icSearchPane .pfEntry:hover .lconn_gray a, .search-history-view-ui .lotusui30 .icSearchPane .pfEntry:hover .lconn_gray a:visited, .search-history-view-ui .lotusui30 .icSearchPane .pfEntry:hover .lconn_title{
+    color: #9a1b1f !important;
+}
+
+/* notification*/
+.icBanner-notif-center .icBanner-popover-notificationReadAll{
+    color: #000 !important;
+}
+.icBanner-notif-center .icBanner-popover-notificationReadAll:hover{
+    color: #9a1b1f !important;
+    text-decoration: none !important;
+}
+
+/*account setting hide blue left border*/
+.lotusui30 .lotusMenu li.lotusSelected a, .lotusui30 .lotusMenu li.lotusSelected a:visited, .lotusui30 .lotusMenu li.lotusSelected a:hover, .lotusui30 .lotusMenu li.lotusSelected a:focus, .lotusui30 .lotusMenu li.lotusSelected a:active, .lotusui30 .lotusMenu .lotusHeaderSelected{
+    border-left: none !important;
+}
+
+/* hide similar blogs section */
 .lotusSection[aria-label="Similar Blogs"] { display: none !important;}
 .lotusSection[aria-label="Similar Entries"] { display: none !important;}
+
+/* make upper case and increase font boldness */
+/* Actitivies Landing Page header placement*/
+  .lotusui30 .lotusTitleBar2.lotusTitleBar2Tabs .lotusHeading{
+     text-transform: uppercase !important;  
+    /* padding-top: 0px !important;*/
+}
+/*.lotusui30 .lotusTitleBar, .lotusui30 .lotusTitleBar2{
+    height: 102px !important;
+}*/
+
+/* make upper case and increase font boldness */
+/* Communities Landing Page header placement */
+.lotusui30 div.lotusTitleBar2 .lotusHeading{
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+}
+
+.lotusui30 .lotusTitleBar2 .lotusHeading a{
+    font-weight: 600 !important;
+}
+
+/* make upper case and increase font boldness */
+/* My Contacts Landing Page header placement */
+.sc.hikari.lotusui30 div.lotusTitleBar h2{
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+  /*  padding-top: 0px !important;*/
+}
+
+/* social feed */
+/* change hover color on top & latest updates button */
+.ic-stream-controls .ic-stream-controls-options ul.bx--tabs__nav li.bx--tabs__nav-item.ic-stream-controls-item a.bx--tabs__nav-link:focus{
+    border-color: #fff !important;
+}
+.ic-stream-controls .ic-stream-controls-options ul.bx--tabs__nav a:hover{
+    background-color: #fff !important;
+}
+
+/* On the community list page added top and bottom border between each community
+   Made titles uppercase and larger font */
+.lotusui30 .lotusTable h4{
+    font-size: 1.1em !important;
+    text-transform:uppercase !important;
+    margin-bottom: 3px !important;
+}
+
+/* search page borders changed*/
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected{
+    border-left-color: #9a1b1f !important;
+}
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch{
+    border-bottom-color: #000 !important;
+}
+.search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchHeader .lotusSearch .icSearchInputBox input, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lconnSearchBookmarkUrl{
+    color: #000 !important;
+}
+ .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .icPagination .icSelected, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lconnSearchResults .lotusTable tr:hover .lconnSearchBookmarkUrl, .search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover .lotusMeta .icGreyText,.search-global-search-restyle .lotusui30 .icSearchResultsPage .lotusTable tr:hover:not(.icLastPageMessage) .lotusMeta, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .icSearchTitle a, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .icStatusUpdate, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover .lconnStatusUpdateTitle .lotusPerson{
+   color: #9a1b1f !important;
+}
+.search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr{
+    border-bottom: 1px solid #c6c6c6 !important;
+}
