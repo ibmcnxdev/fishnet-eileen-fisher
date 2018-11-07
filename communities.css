@@ -13,3 +13,6 @@ tr.placeRow.lotusFirst{
 .lotusui30 .tabNavBar .tabNavCommunityName div{
   text-transform: uppercase !important;
 }
+.lotusui30 .tabNavBar .tabNavSubcommunityName div{
+  text-transform: uppercase !important;
+}
