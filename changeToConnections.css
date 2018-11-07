@@ -350,6 +350,14 @@ div#dropdownNavMenuContainer div#dropdownNavMenu li a, div#dropdownNavMenuContai
     font-weight: 600 !important;
 }
 
+/* Communities page*/
+.lotusui30 .tabNavBar .tabNavCommunityName div{
+  text-transform: uppercase !important;
+}
+.lotusui30 .tabNavBar .tabNavSubcommunityName div{
+  text-transform: uppercase !important;
+}
+
 /* make upper case and increase font boldness */
 /* My Contacts Landing Page header placement */
 .sc.hikari.lotusui30 div.lotusTitleBar h2{
