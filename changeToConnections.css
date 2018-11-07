@@ -21,10 +21,6 @@
     color: #fff !important;
 }
 
-.ics-scbanner > a, .ics-scbanner .navsimplelist > li a, .ics-scbanner .navmenu{
-    color: #fff !important;
-}
-
 .ics-scbanner .navmenu.rd .navsimplelist > li a.selected{
     border-left: 4px solid #9a1b1f !important;
 }
