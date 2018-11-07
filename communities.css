@@ -9,10 +9,3 @@ tr.placeRow{
 tr.placeRow.lotusFirst{
   border-top: 1px solid #c6c6c6 !important;
 }
-
-.lotusui30 .tabNavBar .tabNavCommunityName div{
-  text-transform: uppercase !important;
-}
-.lotusui30 .tabNavBar .tabNavSubcommunityName div{
-  text-transform: uppercase !important;
-}
