@@ -141,7 +141,7 @@
 /* change link or box color to black*/
 .lotusui30 a, .lotusui30 a:visited {
     color: #000 !important;
-    text-decoration: underline !important;
+   /* text-decoration: underline !important;*/
 }
 .lotusui30 a:active, .lotusui30 a:focus, .lotusui30 a:hover{
     text-decoration: underline !important;
