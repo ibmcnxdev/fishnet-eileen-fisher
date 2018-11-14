@@ -143,7 +143,7 @@
     color: #000 !important;
 }
 .lotusui30 a:active, .lotusui30 a:focus, .lotusui30 a:hover{
-    text-decoration: underline !important;
+    text-decoration: none !important;
     color: #9a1b1f !important;
 }
 .lotusui30 .tabNavBar .lotusTabs li.lotusSelected{
