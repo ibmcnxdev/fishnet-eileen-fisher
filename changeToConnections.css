@@ -379,6 +379,7 @@ div#dropdownNavMenuContainer div#dropdownNavMenu li a, div#dropdownNavMenuContai
     background-color: #fff !important;
 }
 
+/* Communities List page*/
 /* On the community list page added top and bottom border between each community
    Made titles uppercase and larger font */
 .lotusui30 .lotusTable h4{
@@ -386,6 +387,63 @@ div#dropdownNavMenuContainer div#dropdownNavMenu li a, div#dropdownNavMenuContai
     text-transform:uppercase !important;
     margin-bottom: 3px !important;
 }
+body .bx--tabs__nav-link:hover {
+    color: #000 !important;
+    background: #fff !important;
+    border-color: #fff !important;
+    font-weight:bold !important;
+}
+body .bx--tabs__nav-item--selected{
+    border-bottom: 3px solid #9a1b1f !important;
+}
+.bx--tabs__nav-item--selected .bx--tabs__nav-link, .bx--tabs__nav-item--selected .bx--tabs__nav-link:focus{
+    color: #000 !important;
+    font-weight: bold !important;
+}
+.catalog-card-view.catalog-ui-updated #placesAdmin .lotusMain .catalog-top-nav .bx--tabs__nav, .catalog-card-view.catalog-ui-updated .catalog .lotusMain .catalog-top-nav .bx--tabs__nav{
+    font-family: "Trade Gothic", sans-serif !important;
+    text-transform: uppercase !important;
+    justify-content: left !important;
+    margin-left:24% !important;
+}
+.bx--cardv2.community-card .card-header, .bx--cardv2.community-card .card-header .parent-community-name{
+    font-family: "Trade Gothic", sans-serif !important;
+}
+.bx--cardv2.community-card .card-header .card-title{
+    text-transform: capitalize !important;
+}
+.bx--overflow-menu:hover{
+    background: #000 !important;
+    box-shadow: 0 0 0 1px #000, 0 0 0 2px #000 !important;
+}
+.bx--overflow-menu:focus{
+    box-shadow:0 0 0 1px #000 !important;
+}
+.catalog-filter-input .bx--text-input~.bx--label{
+    font-size: .95rem !important;
+    font-family: "Trade Gothic", sans-serif !important;
+}
+.bx--list-box__field[aria-expanded=true]~.bx--list-box__menu{
+    box-shadow: 0 1px 0 0 #fff, 1px 0 0 0 #fff, -1px 0 0 0 #FFF, 0 4px 8px 0 rgba(0,0,0,.1) !important;
+}
+.bx--list-box__field:focus, .bx--list-box__field[aria-expanded=true]{
+    outline: 1px solid #fff !important;
+}
+.ic-view-select .bx--list-box__menu-item--highlighted{
+    background-color: #fff !important;
+    color: #9a1b1f !important;
+    font-weight: bold !important;
+}
+.bx--action-icon--selected{
+    border-bottom: 3px solid #9a1b1f !important;
+}
+.filter-refiner .bx--tag{
+    font-size: .85rem !important;
+}
+.tag-finder .input svg.search{
+    fill: #000 !important;
+}
+
 
 /* search page borders changed*/
 .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr:hover, .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr.icSearchResultSelected{
