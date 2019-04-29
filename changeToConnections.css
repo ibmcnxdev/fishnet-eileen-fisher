@@ -403,3 +403,8 @@ div#dropdownNavMenuContainer div#dropdownNavMenu li a, div#dropdownNavMenuContai
 .search-global-search-restyle .lotusui30 .icSearchResultsPage div.lconnSearchResults .lotusTable tr{
     border-bottom: 1px solid #c6c6c6 !important;
 }
+ /*hide the create new community button until fixing onclick to this button. 
+The April 2019 update broke my code that when this button is pushed the feb form opens */
+.catalog-card-view.catalog-ui-updated #placesAdmin .lotusMain .catalog-top-nav #lconn-create-community-container, .catalog-card-view.catalog-ui-updated .catalog .lotusMain .catalog-top-nav #lconn-create-community-container {
+    display: none !important;
+}
